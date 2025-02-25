@@ -1,6 +1,9 @@
 import React from "react";
 import "./App.css";
 import SidebarItem from "./components/SidebarItem/SidebarItem";
+import Footer from "./components/footer";
+import TopBar from "./components/topbar";
+import ContentHeader from "./components/ContentHeader";
 
 function App() {
   function clickVideo() {
@@ -9,13 +12,7 @@ function App() {
 
   return (
     <div>
-      <div className="topbar">
-        <div className="site-name">PlayTube</div>
-        <div className="links">
-          <a href="#">Cadastrar</a>
-          <a href="#">Logar</a>
-        </div>
-      </div>
+      <TopBar/>
 
       <div className="container">
         <div className="sidebar">
@@ -30,10 +27,8 @@ function App() {
         </div>
 
         <div className="content">
-          <div className="content-header">
-            <h1>Vídeos em Destaque</h1>
-          </div>
-
+          
+<ContentHeader/>
           <div className="videos">
             <div className="video-card" onClick={clickVideo}>
               <img
@@ -115,9 +110,7 @@ function App() {
         </div>
       </div>
 
-      <div className="footer">
-        <p>&copy; 2025 PlayTube</p>
-      </div>
+      <Footer/>
     </div>
   );
 }
