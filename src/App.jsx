@@ -37,11 +37,36 @@ function App() {
               imagem={"https://picsum.photos/250/150?random=2"}
               titulo={"React Hooks: Entendendo useState e useEffect na Prática"}
             />
-
             <VideoCard
               imagem={"https://picsum.photos/250/150?random=3"}
               titulo={
                 "Dominando JSX: Como Escrever Código Limpo e Eficiente em React"
+              }
+            />
+            <VideoCard
+              imagem={"https://picsum.photos/250/150?random=4"}
+              titulo={"Gerenciamento de Estado em React com Context API"}
+            />
+            <VideoCard
+              imagem={"https://picsum.photos/250/150?random=5"}
+              titulo={
+                "Integrando APIs Externas no React: Consumindo Dados de Forma Eficiente"
+              }
+            />
+            <VideoCard
+              imagem={"https://picsum.photos/250/150?random=6"}
+              titulo={"Roteamento no React com React Router: Guia Completo"}
+            />
+            <VideoCard
+              imagem={"https://picsum.photos/250/150?random=7"}
+              titulo={
+                "Estilos no React com Styled-Components: A Forma Moderna de Trabalhar com CSS"
+              }
+            />
+            <VideoCard
+              imagem={"https://picsum.photos/250/150?random=8"}
+              titulo={
+                "React vs Angular vs Vue: Qual Framework Escolher para seu Projeto Frontend?"
               }
             />
           </div>
