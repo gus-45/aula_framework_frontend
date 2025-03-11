@@ -1,15 +1,25 @@
 import React from "react";
 import "./App.css";
 import SidebarItem from "./components/SidebarItem/SidebarItem";
+<<<<<<< HEAD
 import Topbar from "./components/Topbar/Topbar";
 import ContentHeader from "./components/ContentHeader/ContentHeader";
 import Footer from "./components/Footer/Footer";
 import VideoCard from "./components/VideoCard/VideoCard";
+=======
+import Footer from "./components/footer";
+import TopBar from "./components/topbar";
+import ContentHeader from "./components/ContentHeader";
+>>>>>>> 3cb2bc6da212d38d0e0d4b7ca33554748ee5093b
 
 function App() {
   return (
     <div>
+<<<<<<< HEAD
       <Topbar />
+=======
+      <TopBar/>
+>>>>>>> 3cb2bc6da212d38d0e0d4b7ca33554748ee5093b
 
       <div className="container">
         <div className="sidebar">
@@ -24,8 +34,13 @@ function App() {
         </div>
 
         <div className="content">
+<<<<<<< HEAD
           <ContentHeader titulo={"Vídeos em Destaque"} />
 
+=======
+          
+<ContentHeader/>
+>>>>>>> 3cb2bc6da212d38d0e0d4b7ca33554748ee5093b
           <div className="videos">
             <VideoCard
               imagem={"https://picsum.photos/250/150?random=1"}
@@ -73,7 +88,11 @@ function App() {
         </div>
       </div>
 
+<<<<<<< HEAD
       <Footer />
+=======
+      <Footer/>
+>>>>>>> 3cb2bc6da212d38d0e0d4b7ca33554748ee5093b
     </div>
   );
 }
